@@ -1,0 +1,13 @@
+Step 1: Start the program
+Step 2: Accept the number of processes in the ready queue
+Step 3: For each process in the ready queue, assign the process id and accept the CPU burst time
+Step 4: Start the ready queue according the shortest burst time by sorting according to lowest to
+highest burst time.
+Step 5: Set the waiting time of the first process as ‘0’ and its turnaround time as its burst time.
+Step 6: For each process in the ready queue, calculate
+(a) Waiting time for process(n)= Waiting time of process (n-1) + Burst time of process(n-1)
+(b) Turn around time for Process(n)= Waiting time of Process(n)+ Burst time for process(n)
+Step 6: Calculate
+(c) Average Waiting time = Total Waiting Time / Number of process
+(d) Average Turnaround time = Total Turnaround Time / Number of process
+Step 7: Stop the program
